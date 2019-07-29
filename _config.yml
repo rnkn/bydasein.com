@@ -1,0 +1,12 @@
+title: By Dasein
+url: https://bydasein.com
+description: >-
+  A filmmaking company.
+timezone: Australia/Brisbane
+copyright: >-
+  &copy; By Dasein 2013&nbsp;&ndash;&nbsp;2020
+date_format: >-
+  %-d %B %Y
+assets: /images/
+exclude:
+  - README.md

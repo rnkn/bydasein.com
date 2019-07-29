@@ -1,0 +1,93 @@
+---
+layout: null
+---
+@import "mixins";
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: rgba(0,0,0,0.65);
+  @media (prefers-color-scheme: dark) {
+    color: rgba(255,255,255,0.65);
+    background-color: black;
+  }
+  font: 16px Georgia, serif;
+  line-height: 1.4em;
+}
+
+main {
+  max-width: 720px;
+  margin: 5em auto;
+}
+
+a:not(.img) {
+  color: rgba(0,0,0,1);
+  @media (prefers-color-scheme: dark) { color: rgba(255,255,255,1); }
+  text-decoration: none;
+  @include prefix(transition, 0.5s ease-out background);
+  &:hover {
+    color: white;
+    background-color: black;
+    @media (prefers-color-scheme: dark) {
+      color: black;
+      background-color: white;
+    }
+  }
+}
+
+img {
+  width: 100%;
+}
+
+h2 {
+  font: bold 1.25em Helvetica, sans;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.2em;
+}
+
+.frame {
+  margin-bottom: 4rem;
+}
+
+.marquee {
+  max-width: 600px;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  @include prefix(transform, translate(-50%, -50%));
+  #logo {
+    width: 400px;
+    @media (prefers-color-scheme: dark) { filter: invert(100%); }
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    li {
+      display: inline;
+      padding-left: 1em;
+    }
+  }
+}
+
+.video {
+  position: relative;
+  padding-bottom: 9 / 16 * 100%;
+  height: 0;
+  overflow: hidden;
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.description ul {
+  list-style-type: circle;
+}
