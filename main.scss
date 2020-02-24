@@ -10,10 +10,6 @@ html {
 
 body {
   color: rgba(0,0,0,0.65);
-  @media (prefers-color-scheme: dark) {
-    color: rgba(255,255,255,0.65);
-    background-color: black;
-  }
   font: 16px Georgia, serif;
   line-height: 1.4em;
 }
@@ -25,16 +21,11 @@ main {
 
 a:not(.img) {
   color: rgba(0,0,0,1);
-  @media (prefers-color-scheme: dark) { color: rgba(255,255,255,1); }
   text-decoration: none;
   @include prefix(transition, 0.5s ease-out background);
   &:hover {
     color: white;
     background-color: black;
-    @media (prefers-color-scheme: dark) {
-      color: black;
-      background-color: white;
-    }
   }
 }
 
@@ -59,10 +50,7 @@ h2 {
   top: 45%;
   left: 50%;
   @include prefix(transform, translate(-50%, -50%));
-  #logo {
-    width: 400px;
-    @media (prefers-color-scheme: dark) { filter: invert(100%); }
-  }
+  #logo { width: 400px; }
   ul {
     list-style: none;
     padding: 0;
