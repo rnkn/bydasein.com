@@ -1,7 +1,19 @@
 ---
 layout: null
 ---
-@import "mixins";
+@mixin prefix($prop, $value) {
+  -webkit-#{$prop}: $value;
+  -moz-#{$prop}: $value;
+  -ms-#{$prop}: $value;
+  -o-#{$prop}: $value;
+  $prop: $value;
+}
+
+@mixin vertical-align() {
+   position: absolute;
+   top: 50%;
+   @include prefix(transform, translateY(-50%));
+}
 
 html {
   margin: 0;
@@ -9,9 +21,7 @@ html {
 }
 
 body {
-  color: rgba(0,0,0,0.65);
-  font: 16px Georgia, serif;
-  line-height: 1.4em;
+  font-family: "Times New Roman", serif;
 }
 
 main {
