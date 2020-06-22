@@ -11,4 +11,5 @@ date_format: >-
   %-d %B %Y
 assets: /images/
 exclude:
+  - CNAME
   - README.md
