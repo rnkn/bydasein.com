@@ -17,6 +17,9 @@ Leonard French_][vlf] for La&nbsp;Trobe University's 50th anniversary,
 which premiered with a live orchestral accompaniment by the Australian
 Youth Orchestra.
 
+He works with the community developing the [Fountain][] screenwriting
+format and maintains several [open-source writing tools][gh].
+
 [IMDb](https://www.imdb.com/name/nm3293863/)
 
 [ihh]: http://ihearthiroshima.com
@@ -33,3 +36,5 @@ Youth Orchestra.
 [qag]: https://www.qagoma.qld.gov.au/
 [fulcrum arts]: https://www.fulcrumarts.org/
 [metro arts]: https://metroarts.com.au
+[fountain]: https://fountain.io
+[gh]: https://github.com/rnkn
