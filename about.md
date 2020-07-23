@@ -20,7 +20,8 @@ Youth Orchestra.
 He works with the community developing the [Fountain][] screenwriting
 format and maintains several [open-source writing tools][gh].
 
-[IMDb](https://www.imdb.com/name/nm3293863/)
+[IMDb](https://www.imdb.com/name/nm3293863/) \\
+[Dasein on Wikipedia](https://en.wikipedia.org/wiki/Dasein)
 
 [ihh]: http://ihearthiroshima.com
 [lawrence english]: https://www.lawrenceenglish.com/
