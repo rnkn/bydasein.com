@@ -17,8 +17,8 @@ Leonard French_][vlf] for La&nbsp;Trobe University's 50th anniversary,
 which premiered with a live orchestral accompaniment by the Australian
 Youth Orchestra.
 
-He works with the community developing the [Fountain][] screenwriting
-format and maintains several [open-source writing tools][gh].
+He works with the open-source community developing the [Fountain][]
+screenwriting format and maintains several [open-source writing tools][gh].
 
 [IMDb](https://www.imdb.com/name/nm3293863/) \\
 [Dasein on Wikipedia](https://en.wikipedia.org/wiki/Dasein)
